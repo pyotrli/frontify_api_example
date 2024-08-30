@@ -6,7 +6,7 @@ from src.utils.frontify_queries.upload_file.upload_file_executor import upload_f
 CHUNK_SIZE_IN_BYTES = 200 * 1024 * 1024  # 200MB chunks when uploading to Frontify
 
 
-def upload_file(client: FrontifyClient, filepath: str, filename: str, title: str) -> dict:
+def upload_file(client: FrontifyClient, filepath: str, filename: str) -> dict:
     file_size = get_file_size_in_bytes(filepath)
     if file_size == 0:
         raise Exception('file size is zero')
