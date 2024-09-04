@@ -70,7 +70,7 @@ Create a new asset revision by replacing the asset with the use of the [replaceA
 Delete an asset from your Frontify instance using the [deleteAsset mutation](https://frontify.github.io/graphql-reference/mutations/deleteAsset).
 
 - [Script](/examples/python/delete_frontify_asset.py)
-- [Usage instructions](/readme/DeleteReplacement.md)
+- [Usage instructions](/readme/DeleteAsset.md)
 
 ## Tags
 Scripts that interact with Tags.
@@ -78,8 +78,8 @@ Scripts that interact with Tags.
 ### Add tags
 Add tags to an asset using the [addAssetTags mutation](https://frontify.github.io/graphql-reference/mutations/addAssetTags)
 
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+- [Script](/examples/python/add_frontify_tags.py)
+- [Usage instructions](/readme/AddAssetTags.md)
 
 ### Remove tages
 Remove tags from an asset using the [removeAssetTags mutation](https://frontify.github.io/graphql-reference/mutations/removeAssetTags)
