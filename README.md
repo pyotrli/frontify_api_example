@@ -81,11 +81,11 @@ Add tags to an asset using the [addAssetTags mutation](https://frontify.github.i
 - [Script](/examples/python/add_frontify_tags.py)
 - [Usage instructions](/readme/AddAssetTags.md)
 
-### Remove tages
+### Remove tags
 Remove tags from an asset using the [removeAssetTags mutation](https://frontify.github.io/graphql-reference/mutations/removeAssetTags)
 
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+- [Script](/examples/python/remove_frontify_tags.py)
+- [Usage instructions](/readme/RemoveAssetTags.md)
 
 ## Metadata
 Scripts that interact with Mutations. 
