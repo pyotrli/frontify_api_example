@@ -39,7 +39,7 @@ Change the filename to `.env`.
 Add your security credentials to the `.env` file - this is ignored if using the gitignore included with this repository, and will ensure you do not commit secrets or other sensitive variables.
 
 # FrontifyClient
-FrontifyClient is an example GraphQL client for interacting with Frontify's public API. You can find the client code [here](/src/services/FrontifyClient.py) and usage examples [here](/readme/FrontifyClient.md).
+FrontifyClient is an example GraphQL client for interacting with Frontify's public API. You can find the client code [here](/examples/python/src/services/FrontifyClient.py) and usage examples [here](/readme/FrontifyClient.md).
 
 # Example Scripts
 ## File Operations
