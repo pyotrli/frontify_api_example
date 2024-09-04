@@ -26,9 +26,9 @@ Table of Contents
       * [Add tags](#Add-tags)
       * [Remove tags](#Remove-tags)
   * [Metadata](#Metadata)
-      * [Add metadata](#Add-metadata)
-      * [Update metadata](#Update-metadata)
-      * [Remove metadata](#Remove-metadata)
+      * [Add metadata](#Metadata)
+      * [Update metadata](#Metadata)
+      * [Remove metadata](#Metadata)
 * [License](/LICENSE)
 
 # Getting Started
