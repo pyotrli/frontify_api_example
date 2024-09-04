@@ -6,7 +6,7 @@ A collection of Python scripts to showcase basic interactactions with Frontify's
 
 - This project includes zero test coverage
 
-- The code in this repository is provided "as is", with all faults. There are no warranties or gauranteed, expressed or implied. The 
+- The code in this repository is provided "as is", with all faults. There are no warranties or gaurantees, expressed or implied. The 
 quality and maintenance of this repository is not guaranteed and
 should be used for inspiration only and a way to get started quickly
 
