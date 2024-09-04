@@ -8,7 +8,7 @@ load_dotenv(override=True)
 # security and other configuration headers
 frontify_domain = os.getenv('frontify_domain')
 frontify_access_token = os.getenv('frontify_access_token')
-asset_id = 550435  # get this ID from url of asset or via API
+asset_id = 12345  # get this ID from url of asset or via API
 asset_id = encode_obj_to_base64(asset_id, 'asset')
 
 # configure Frontify Client
