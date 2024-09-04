@@ -18,8 +18,7 @@ The information to update is specified with the help of the `AssetData` dataclas
 | filename | String (str) | The new filename for the asset when accessed through the API |
 | expiresAt | String (str) | The expiration date for the asset in Frontify's expected date format: `2019-12-17T11:36:05+01:00` |
 | author | String (str) | The value to be used in the `Creator` field of the legal tab in the backend view of an asset. E.g. `Photogropher name` |
-| copyright | Copyright (dataclass) | A Copyright dataclass which requires the copyright status (`"UNKNOWN\|PUBLIC\|COPYRIGHTED"`) and the copyright notice (str). <br> <br> All fields of Copyright are required. <br> <br> For example: <pre python>from src.utils.frontify_queries.update_asset.update_asset import Copyright&#13;copyright=Copyright(&#13;    status: "COPYRIGHTED",&#13;    notice: "This is copyrighted"&#13;)</pre>
-|
+| copyright | Copyright (dataclass) | A Copyright dataclass which requires the copyright status (`"UNKNOWN\|PUBLIC\|COPYRIGHTED"`) and the copyright notice (str). <br> <br> All fields of Copyright are required. <br> <br> For example: <pre python>from src.utils.frontify_queries.update_asset.update_asset import Copyright&#13;copyright=Copyright(&#13;    status: "COPYRIGHTED",&#13;    notice: "This is copyrighted"&#13;)</pre>|
 
 ## Run the script
 
