@@ -50,14 +50,14 @@ Upload a file to Frontify using the [uploadFile](https://frontify.github.io/grap
 
 It is recommended to check out the [developer documentation](https://developer.frontify.com/d/XFPCrGNrXQQM/graphql-api#/deep-dive/upload-file-create-asset) on how to upload an asset to Frontify before using this script.
 
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+- [Script](/examples/python/upload_frontify_asset.py)
+- [Usage instructions](/readme/AssetUpload.md)
 
 ### Update an asset
 Update asset information, including title, filename, description, copyright, expiry date and author. Uses the [updateAsset mutation](https://frontify.github.io/graphql-reference/mutations/updateAsset)
 
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+- [Script](/examples/python/update_frontify_asset.py)
+- [Usage instructions](/readme/AssetUpdate.md)
 
 
 ### Replace an asset
@@ -69,8 +69,8 @@ Create a new asset revision by replacing the asset with the use of the [replaceA
 ### Delete an asset
 Delete an asset from your Frontify instance using the [deleteAsset mutation](https://frontify.github.io/graphql-reference/mutations/deleteAsset).
 
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+- [Script](/examples/python/delete_frontify_asset.py)
+- [Usage instructions](/readme/DeleteReplacement.md)
 
 ## Tags
 Scripts that interact with Tags.
