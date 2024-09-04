@@ -13,23 +13,23 @@ should be used for inspiration only and a way to get started quickly
 Table of Contents
 =================
 
-  * [Getting Started](#Getting-Started)
-  * [FrontifyClient](#FrontifyClient)
-  * [Example Scripts](#Example-Scripts)
-    * [File operations](#File-Operations)
-        * [Upload an asset](#Upload-an-asset)
-        * [Update an asset](#Update-an-asset)
-        * [Replace an asset](#Replace-an-asset)
-        * [Delete an asset](#Delete-an-asset)
-    * [Tags](#Tags)
-        * [Add tags](#Add-tags)
-        * [Remove tags](#Remove-tags)
-    * [Metadata](#Metadata)
-        * [Add metadata](#Add-metadata)
-        * [Update metadata](#Update-metadata)
-        * [Remove metadata](#Remove-metadata)
-
-  * [License](/LICENSE)
+* [Getting Started](#Getting-Started)
+* [FrontifyClient](#FrontifyClient)
+* [Base64 Tools](#Base64-Tools)
+* [Example Scripts](#Example-Scripts)
+  * [File operations](#File-Operations)
+      * [Upload an asset](#Upload-an-asset)
+      * [Update an asset](#Update-an-asset)
+      * [Replace an asset](#Replace-an-asset)
+      * [Delete an asset](#Delete-an-asset)
+  * [Tags](#Tags)
+      * [Add tags](#Add-tags)
+      * [Remove tags](#Remove-tags)
+  * [Metadata](#Metadata)
+      * [Add metadata](#Add-metadata)
+      * [Update metadata](#Update-metadata)
+      * [Remove metadata](#Remove-metadata)
+* [License](/LICENSE)
 
 # Getting Started
 Make a copy of the `.env.example` file.
@@ -40,6 +40,18 @@ Add your security credentials to the `.env` file - this is ignored if using the 
 
 # FrontifyClient
 FrontifyClient is an example GraphQL client for interacting with Frontify's public API. You can find the client code [here](/examples/python/src/services/FrontifyClient.py) and usage examples [here](/readme/FrontifyClient.md).
+
+# Base64 Tools
+Frontify's public API makes use of IDs which are a Base64 encoded string representation of JSON objects with the format:
+
+```json
+{
+    "identifier": 12345,
+    "type": "object_type"
+}
+```
+
+To make working with these IDs simpler, we include [base64tools.py](/examples/python/src/utils/base64tools.py). More information can be found in the [Base64 Tools Readme](/readme/UsingBase64Tools.md).
 
 # Example Scripts
 ## File Operations
@@ -92,15 +104,4 @@ Scripts that interact with Mutations.
 
 Check out the [developer documentation on using custom metadata fields](https://developer.frontify.com/d/XFPCrGNrXQQM/graphql-api#/deep-dive/custom-metadata-1) and make sure you're familiar with the [metadata types](https://help.frontify.com/en/articles/4057240-metadata-and-tags-in-libraries#h_f4d37c46ec) available in Frontify.
 
-### Add metadata
-
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
-### Update metadata
-
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
-### Remove metadata
-
-- [Script](/examples/python/replace_frontify_asset.py)
-- [Usage instructions](/readme/AssetReplacement.md)
+TBC
