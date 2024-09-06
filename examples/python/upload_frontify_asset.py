@@ -10,7 +10,7 @@ load_dotenv(override=True)
 # security and other configuration headers
 frontify_domain = os.getenv('frontify_domain')
 frontify_access_token = os.getenv('frontify_access_token')
-project_id = os.getenv('frontify_project_id')
+parent_id = os.getenv('frontify_project_id')
 
 # configure Frontify Client
 client = FrontifyClient(
