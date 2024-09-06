@@ -21,6 +21,6 @@ client = FrontifyClient(
 # delete asset on Frontify
 try:
     data = delete_asset(client=client, asset_id=asset_id)
-    print(f'successfully added tags to asset: {data}')
+    print(f'successfully deleted asset: {data}')
 except Exception as e:
     raise Exception(f'Failed to add tags to asset with error {e}')
