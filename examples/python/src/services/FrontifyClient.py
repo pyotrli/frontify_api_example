@@ -16,7 +16,7 @@ class FrontifyClient:
     A client for interacting with the Frontify GraphQL API and uploading files in chunks.
 
     Attributes:
-        domain (str): The domain of the Frontify API.
+        domain (str): Your Frontify domain, eg: demo.frontify.com
         access_token (str): The access token for authenticating with the API.
         retries (int): The number of retry attempts for failed requests.
         timeout_in_seconds (int): The timeout for API requests in seconds.
