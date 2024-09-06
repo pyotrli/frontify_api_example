@@ -12,6 +12,6 @@ def remove_tags(client: FrontifyClient, asset_id: str, tags: list) -> dict:
     })
 
     if errors:
-        raise Exception(f'Failed to add tags|Error: {errors}')
+        raise Exception(f'Failed to remove tags|Error: {errors}')
 
     return data['removeAssetTags']['asset']['tags']
