@@ -29,4 +29,4 @@ try:
     response  = update_asset(client=client, asset_id=asset_id, asset_data=assetUpdateData)
     print(f'Asset updated at {response}')
 except Exception as e:
-    raise Exception(f'Failed to replace asset with error {e}')
+    raise Exception(f'Failed to update asset with error {e}')
