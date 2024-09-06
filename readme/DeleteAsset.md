@@ -6,7 +6,7 @@ Ensure that the project has been setup as described in the [Initial Setup](/read
 
 ## Modify the script
 
-Change the `asset_id` on line 11 of the `delete_frontify_asset.py` [file](/examples/python/replace_frontify_asset.py) to the ID of the asset you want to delete.
+Change the `asset_id` on line 11 of the `delete_frontify_asset.py` [file](/examples/python/delete_frontify_asset.py) to the ID of the asset you want to delete.
 
 The `asset_id` can be found in the URL of the asset in Frontify, eg demo.frontify.com/screens/**123**
 
