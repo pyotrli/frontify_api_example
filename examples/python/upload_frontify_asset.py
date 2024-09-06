@@ -17,6 +17,7 @@ client = FrontifyClient(
     domain=frontify_domain,
     access_token=frontify_access_token,
     retries=3
+    timeout_in_seconds=600  # create_asset mutation can take a long time for large files
 )
 
 # initiate file upload to Frontify and upload file in chunks
