@@ -33,7 +33,7 @@ class FrontifyClient:
         Initializes the FrontifyClient with the given parameters.
 
         Args:
-            domain (str): The domain of the Frontify API.
+            domain (str): Your Frontify domain, eg: demo.frontify.com
             access_token (str): The access token for authenticating with the API.
             retries (int, optional): The number of retry attempts for failed requests. Defaults to 0.
             timeout_in_seconds (int, optional): The timeout for API requests in seconds. Defaults to 10.
