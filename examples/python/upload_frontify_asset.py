@@ -30,7 +30,7 @@ file_size = response['file_size_in_bytes']
 # if filetype supported by Frontify library, proceed with replacing an asset on Frontify
 if supported:
     try:
-        assetId = create_asset(client=client, fileid=fileid, title="Example asset", projectid=project_id)
+        assetId = create_asset(client=client, fileid=fileid, title="Example asset", parentid=project_id)
         decoded_asset_id = decode_base64_string(assetId)['identifier']
         print(f'successfully created asset at https://{frontify_domain}/screens/{decoded_asset_id}')
     except Exception as e:
