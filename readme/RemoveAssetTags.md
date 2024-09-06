@@ -16,7 +16,7 @@ This script will remove tags from your specified asset, leaving any other tags i
 
 From the base directory of this repository, run `python examples/python/add_frontify_tags.py`
 
-This will add the tags specified on line 22 to the specified asset.
+This will remove the tags specified on line 22 to the specified asset.
 
 ## Code
 - [remove_frontify_tags.py](/examples/python/remove_frontify_tags.py)
