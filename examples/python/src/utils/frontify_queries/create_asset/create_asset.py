@@ -31,7 +31,7 @@ def create_asset(
     
     create_asset_input = {
         "input": {
-            "projectId": projectid,
+            "parentId": parentid,
             "fileId": fileid,
             "externalId": externalId,
             "title": title,
