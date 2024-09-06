@@ -18,7 +18,7 @@ client = FrontifyClient(
     retries=3
 )
 
-# add tags to asset on Frontify
+# delete asset on Frontify
 try:
     data = delete_asset(client=client, asset_id=asset_id)
     print(f'successfully added tags to asset: {data}')
