@@ -6,14 +6,14 @@ from src.utils.frontify_queries.upload_file.upload_file import upload_file
 from src.utils.frontify_queries.replace_asset.replace_asset import replace_asset
 
 
-load_dotenv()
+load_dotenv(override=True)
 # security and other configuration headers
 frontify_domain = os.getenv('frontify_domain')
 frontify_access_token = os.getenv('frontify_access_token')
-asset_id_to_replace = 601226  # get this ID from url of asset or via API
+asset_id_to_replace = 12345  # get this ID from url of asset or via API
 asset_id_to_replace_encoded = encode_obj_to_base64(asset_id_to_replace, 'asset')
 
-# cofnigure Frontify Client
+# configure Frontify Client
 client = FrontifyClient(
     domain=frontify_domain,
     access_token=frontify_access_token,
