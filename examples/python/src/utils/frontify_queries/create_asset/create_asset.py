@@ -8,7 +8,7 @@ from src.utils.frontify_queries.create_asset.create_asset_executor import (
 
 def create_asset(
     client: FrontifyClient,
-    projectid: str,
+    parentid: str,
     fileid: str,
     title: str = None,
     filename: str = None,
