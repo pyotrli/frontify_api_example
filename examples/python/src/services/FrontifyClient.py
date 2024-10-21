@@ -4,7 +4,7 @@ import requests
 from requests.exceptions import RequestException
 import time
 from collections import deque
-from datetime import datetime, timedelta
+from datetime import datetime
 
 
 class RateLimitException(Exception):
